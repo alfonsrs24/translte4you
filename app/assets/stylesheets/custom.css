@@ -1,0 +1,13 @@
+.custom-button {
+    font-size: 11px; /* Adjust the font size as needed */
+    background-color: #007bff; /* Customize the background color */
+    color: white; /* Customize the text color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Adjust padding */
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer; /* Change cursor to pointer */
+  }
+.custom-button:hover {
+    background-color: #0056b3; /* Change background color on hover */
+  }
+  
