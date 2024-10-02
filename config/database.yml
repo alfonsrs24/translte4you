@@ -87,6 +87,6 @@ test:
 production:
   <<: *default
   url: <%= ENV["DATABASE_URL"] %>
-  database: tproduction
-  username: tuserdatab
-  password: <%= ENV["POSTGRESDATAB_USER"] %>
+  database: <%= ENV["POSTGRES_DB"] %>
+  username: <%= ENV["POSTGRES_USER"] %>
+  password: <%= ENV["POSTGRES_PASSWORD"] %>
